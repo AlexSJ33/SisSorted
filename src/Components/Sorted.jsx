@@ -65,7 +65,32 @@ function Sorted() {
 
 
         </div>
-        <div className="flex-item2">Números Sorteados:</div>
+        <hr />
+        <div className="flex-item2">
+            <h2>Números Sorteados:</h2>
+            <table>
+                <tr>
+                    <th>Hora</th>
+                    <th>Nº</th>
+                    
+                </tr>
+                <tr>
+                    <td>17:40</td>
+                    <td>19</td>
+                    
+                </tr>
+                <tr>
+                    <td>17:40</td>
+                    <td>22</td>
+                    
+                </tr>
+                <tr>
+                    <td>17:40</td>
+                    <td>47</td>
+                    
+                </tr>
+            </table>            
+        </div>
     </div>
     </>
   )
