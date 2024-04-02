@@ -1,8 +1,16 @@
 import "./Sorted.css"
 
-import React from 'react'
+import { useState } from "react"
+
 
 function Sorted() {
+    const [numbers, setNumbers] = useState(0);
+
+    function handleClick() {
+        alert('Press Gostoso')
+    }
+
+
   return (
     <>
     <div className='flex-container'>
@@ -65,8 +73,13 @@ function Sorted() {
 
 
         </div>
-        <hr />
         <div className="flex-item2">
+            <button className="comprarFichas">Comprar Fichas</button>
+            <span>Fichas: 0</span>
+            <button className="sortear" onClick={handleClick}>Sortear</button>
+        </div>
+        <hr />
+        <div className="flex-item3">
             <h2>Números Sorteados:</h2>
             <table>
                 <tr>
